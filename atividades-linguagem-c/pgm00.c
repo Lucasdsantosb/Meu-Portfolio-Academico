@@ -1,5 +1,5 @@
 #include<stdio.h> // biblioteca de entrada e saida
-#include<stdlib.h> // biblioteca de funções
+#include<stdlib.h> // biblioteca de funï¿½ï¿½es
 #include<locale.h> // biblioteca de idioma
 int main () {
 setlocale(LC_ALL,"portuguese");	

@@ -15,10 +15,10 @@ int main()
 	scanf("%d,",&l3);
 	
 	if (l1==l2 && l1==l3) {
-	printf("EQUILÁTERO");
+	printf("EQUILï¿½TERO");
 	}
 	else if (l1 == l2 && l1 !=l3){
-		printf("ISORCÉLES");
+		printf("ISORCï¿½LES");
 		}
 		else {
 			printf("ESCALENO");
