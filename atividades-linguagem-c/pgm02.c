@@ -3,15 +3,15 @@
 #include<locale.h>
 /*soma, multiplicacao, subtracacao,
 divisao, media aritmetica simples
-e o resto da divisão, e média harmonica*/
+e o resto da divisÃ£o, e mÃ©dia harmonica*/
 int main()
 {
 	setlocale(LC_ALL,"portuguese");
-	int n1,n2,soma,mul; //declaração de variaveis 
-	float rest,sub,div,media,mh;//declaração de variaveis
-	printf("Digite o 1º número: ");
+	int n1,n2,soma,mul; //declaraÃ§Ã£oo de variaveis 
+	float rest,sub,div,media,mh;//declaraÃ§Ã£oo de variaveis
+	printf("Digite o 1Âº nÃºmero: ");
 	scanf("%d",&n1);
-	printf("Digite o 2º número: ");
+	printf("Digite o 2Âº nÃºmero: ");
 	scanf("%d",&n2);
 	soma=n1 + n2;
 	sub=n1 - n2;
@@ -20,12 +20,12 @@ int main()
     media = (float)(n1 + n2) / 2;
     rest = n1%n2;
     mh = (float)2.0/(1.0/n1+1.0/n2);
-	printf("A soma dos números é: %d\n",soma);
-	printf("A subtração dos números é: %d\n",sub);
-	printf("A multiplicacao dos números é: %d\n",mul);
-	printf("A divisao dos números é: %.1f\n",div);
-	printf("A média dos números é: %.1f\n",media);
-	printf("O resto da divisão dos números é: %.1f\n",rest);
-	printf("A média harmonica dos números é: %.1f\n", mh);
+	printf("A soma dos nÃºmeros Ã©: %d\n",soma);
+	printf("A subtraÃ§Ã£o dos nÃºmeros Ã©: %d\n",sub);
+	printf("A multiplicacao dos nÃºmeros Ã©: %d\n",mul);
+	printf("A divisao dos nÃºmeros Ã©: %.1f\n",div);
+	printf("A mÃ©dia dos nÃºmeros Ã©: %.1f\n",media);
+	printf("O resto da divisÃ£o dos nÃºmeros Ã©: %.1f\n",rest);
+	printf("A mÃ©dia harmonica dos nÃºmeros Ã©: %.1f\n", mh);
 }
 
